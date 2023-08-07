@@ -1,5 +1,7 @@
-#!/data/data/com.termux/files/usr/bin/env python3
-
+#!/usr/bin/env python3
+#This script belongs to termux-apt-repo package of termux. I am adding this file here in order to avoid any updates to this file officially by termux.
+#Author: https://github.com/Grimler91
+#To get origional version of this script you may visit https://github.com/termux/termux-apt-repo
 import datetime, hashlib, os, re, shutil, subprocess, sys, glob, argparse
 
 COMPONENTS = []
